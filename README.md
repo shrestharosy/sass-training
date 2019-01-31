@@ -7,14 +7,8 @@
 
 ## Installation Guide
 
-1. `git clone https://github.com/kcsuraj/react-design-system.git`
+1. `git clone https://github.com/kcsuraj/frontend-starter-kit.git`
 2. `npm install`
-3. `npm start`
+3. `gulp`
 
-Your app will run in http://localhost:3000 by default.
-
-Running storybook
-
-1. `npm run storybook`
-
-Your storybook will run in http://localhost:9009 by default.
+Your app will run in http://localhost:3002 by default.
