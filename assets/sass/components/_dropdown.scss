@@ -1,15 +1,38 @@
 .dropdown {
-  display: inline-block;
+  float: right;
   &__menu {
+    width: 200px;
+    height: 40px;
+    border: 1px solid $border-color;
+    border-radius: 4px;
+    background-color: $orange;
+    color: $white;
+
     &:hover {
       cursor: pointer;
     }
   }
+
   &__items {
     display: none;
     visibility: hidden;
     list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: $border-color;
+    color: $white;
+
+    li {
+      padding: 5px;
+      height: 35px;
+      &:hover {
+        cursor: pointer;
+        background-color: $orange;
+        color: $white;
+      }
+    }
   }
+
   &:hover > &__items {
     display: block;
     visibility: visible;
