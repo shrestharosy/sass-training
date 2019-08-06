@@ -1,0 +1,16 @@
+.dropdown {
+  &__items {
+    display: none;
+    visibility: hidden;
+    list-style-type: none;
+  }
+  &:hover > &__items {
+    display: block;
+    visibility: visible;
+  }
+  &__menu {
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}
