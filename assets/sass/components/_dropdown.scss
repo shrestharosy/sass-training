@@ -1,4 +1,10 @@
 .dropdown {
+  display: inline-block;
+  &__menu {
+    &:hover {
+      cursor: pointer;
+    }
+  }
   &__items {
     display: none;
     visibility: hidden;
@@ -7,10 +13,5 @@
   &:hover > &__items {
     display: block;
     visibility: visible;
-  }
-  &__menu {
-    &:hover {
-      cursor: pointer;
-    }
   }
 }
